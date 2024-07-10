@@ -12,10 +12,21 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url(https://user-images.githubusercontent.com/13468728/233847739-219cb494-c265-4554-820a-bd3424c59065.jpg);
+  background-image: url(https://cdn.pixabay.com/video/2023/07/04/170064-842720165_tiny.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: fill;
+}
+
+body::before {
+    content: url('/Users/ssagar/myproject/public/image001.png'); /* replace with your image path */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px; /* adjust the width and height to your liking */
+    height: 50px;
+    z-index: 1; /* make sure it's on top of the background image */
+    filter: drop-shadow(-0px 0px 0.9px rgb(255, 255, 255));
 }
 
 section {
