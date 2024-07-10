@@ -19,13 +19,13 @@ body {
 }
 
 body::before {
-    content: url('/Users/ssagar/myproject/public/image001.png'); /* replace with your image path */
+    content: url('/Users/ssagar/myproject/public/image001.png'); 
     position: absolute;
     top: 0;
     left: 0;
-    width: 50px; /* adjust the width and height to your liking */
+    width: 50px; 
     height: 50px;
-    z-index: 1; /* make sure it's on top of the background image */
+    z-index: 1; 
     filter: drop-shadow(-0px 0px 0.9px rgb(255, 255, 255));
 }
 
